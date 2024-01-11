@@ -12,9 +12,6 @@ document.addEventListener('DOMContentLoaded', () => {
         const name = country.name.common || 'N/A';
         const countryCodes = country.cca2 || 'N/A';
 
-        console.log(latlng)
-
-        // Create Bootstrap card
         const cardContainer = document.createElement('div');
         cardContainer.classList.add('col-lg-4', 'col-sm-12');
 
